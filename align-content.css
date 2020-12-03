@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.flex-items {
+    border: 2px solid rgb(21, 255, 0);
+    width: 50px;
+    height: 50px;
+    
+}
+.flex-container {
+    display: flex;
+    border: 2px solid;
+    margin-bottom: 5em;
+    height: 20vh;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-start {
+    align-content: flex-start;
+}
+.flex-end {
+    align-content: flex-end;
+}
+.center {
+    align-content: center;
+}
+.space-between {
+    align-content: space-between;
+}
+.space-around {
+    align-content: space-around;
+}

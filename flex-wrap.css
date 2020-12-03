@@ -1,0 +1,52 @@
+.flex-items{
+    background-image: linear-gradient(red,rgb(9, 10, 10));
+    padding: 2em;
+    margin-top: 3em;
+    margin-left: 1em;
+    border: 2px solid rgb(207, 198, 198);
+    box-shadow: 9px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.flex-container {
+    width: 50%;
+}
+.flex-container.no-wrap {
+    display: flex;
+    flex-wrap: nowrap; /* this is the default value*/
+}
+.flex-container.wrap {
+    display: flex;
+    flex-wrap: wrap;  
+}
+.flex-container.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;  
+}
+
+h2{
+    margin-top: 3em;
+    margin-left: 2em;
+    color:rgb(16, 170, 190);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: goldenrod;
+}
+p {
+    font-size: 1.8rem;
+    color: rgb(16, 120, 168);
+    text-align: center;
+}
+
+ul {
+    color: rgb(132, 175, 196);
+    font-size: 1.3rem;
+}

@@ -1,0 +1,49 @@
+.heading {
+    text-align: center;
+}
+
+.hello > ul {
+    display: inline-block;
+
+color: rgb(11, 165, 11);
+}
+
+h1 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(blue,red);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.flex-items {
+    border: 2px solid greenyellow;
+    padding: 1em;
+    margin-left: 1em;
+    background-color: grey;
+    
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 1em;
+    border: 2px solid grey;
+    height: 30vh;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.strech {
+    align-items: strech;
+}
+.baseline {
+    align-items: baseline;
+}

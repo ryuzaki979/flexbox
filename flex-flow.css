@@ -1,0 +1,43 @@
+header {
+    width: 75%;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+h1 {
+    color: rgba(9, 114, 105, 0.692);
+}
+p {
+    color: rgb(6, 158, 74);
+}
+
+.flex-items {
+    padding: 3em;
+    border: 10px dotted;
+    background-color: rgb(247, 7, 127);
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-bottom: -4em;
+    margin-top: 2em;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 2em;
+}
+.flex-direction {
+    flex-direction: column;
+}
+.flex-wrap {
+    width: 20%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+.flex-flow {
+    width: 50%;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    
+}

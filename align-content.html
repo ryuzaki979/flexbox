@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-content</title>
+    <link rel="stylesheet" href="align-content.css">
+</head>
+<body>
+    <header class="heading">
+        <h1>Align-Content</h1>
+        <p>This aligns a flex container's lines within when there is extra space in the cross-axis. similar to how <strong>Justify-content</strong>aligns individual items within the main axis.</p>
+        <p><strong>Note:</strong>This property has no effect when there is only one line of flex-items</p>
+        <p>Lets talk about available values. 
+            <ul>
+                <li>flex-start</li>
+                <li>flex-end</li>
+                <li>center</li>
+                <li>strech</li>
+                <li>space-between</li>
+                <li>space-around</li>
+            </ul>
+        </p>
+    </header>
+    <main class="flex-container flex-start">
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+        
+    </main>
+    <main class="flex-container flex-end">
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+    </main>
+    <main class="flex-container center">
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+    </main>
+    <main class="flex-container strech">
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+    </main>
+    <main class="flex-container space-between">
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+    </main>
+    <main class="flex-container space-around">
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+        <div class="flex-items first">First</div>
+        <div class="flex-items second">Second</div>
+        <div class="flex-items third">Third</div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+section {
+    border: 4px solid;
+    padding: 2em;
+
+    margin-top: 1em;
+}
+
+.inline-flex {
+    border: 3px solid green;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.example {
+    border: 3px solid;
+    background-color: blue;
+    padding: 1em;
+    justify-content: space-around;
+
+}
+.flex {
+    border: 3px solid green;
+    padding: 1em;
+    display: inline-flex;
+    
+}
+
+
+.flex {
+    display: flex;
+}

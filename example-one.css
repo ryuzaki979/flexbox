@@ -1,0 +1,56 @@
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+.header {
+    background-color: tomato;
+}
+.footer {
+    background-color: lightblue;
+}
+.main{
+    text-align: left;
+    background-color: deeppink;
+}
+.aside-one {
+    background-color: dimgrey;
+}
+.aside-two {
+background-color: rebeccapurple;
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 3 0px;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .main {
+        flex: 3 0px;
+    }
+    .aside-one {
+        order: 1;
+    }
+    .main {
+        order:2;
+    }
+    .aside-two {
+        order: 3;
+    }
+    .footer {
+        order: 4;
+    }  
+}
+
+body {
+    padding: 2em;
+}
